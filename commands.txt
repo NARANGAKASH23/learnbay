@@ -1,0 +1,6 @@
+Commands
+1. git config --global user.name "Akash Narang"
+2. git config --global user.email "Narang.akash@ymail.com"
+3. git config --list = for checking configuration of git
+4. git init = initialising empty git repository in your empty folder. Need to be done only once if you are working in same git bash.
+5. git status=lists all the files that are ready to be added to the local repository.
