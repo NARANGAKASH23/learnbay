@@ -3,4 +3,20 @@ Commands
 2. git config --global user.email "Narang.akash@ymail.com"
 3. git config --list = for checking configuration of git
 4. git init = initialising empty git repository in your empty folder. Need to be done only once if you are working in same git bash.
-5. git status=lists all the files that are ready to be added to the local repository.
+5. git status=lists all the files that are ready to be added to the local repository and also the files which are present in staging area.
+6. untracked file= Any file which is on working tree but we have not pushed to staging area.
+7. git add: This commands updates the index using the current content found in the working tree and then prepares the content in the staging area for the next commit. Three ways of doing it. git add <directory name> or git add <file name> or git add -A( all the files are added).Files get moved to stage area.
+8. Directory means whole folder.
+9. use "git rm --cached <file>..." to unstage.
+10. git commit -m "message" : to move file from staging area to local repository. Local repository is the last stage from which you move your file to git hub account. -m is if you want to include some message with your commit.
+11. Before you move your file to remote repository, it should be there in local repository.
+12. insertions or deletions: no. of lines added or deleted in the file.
+12. repository : container in which you put all your files.
+13. git push: To move files from local repository to remote repository(git hub). git push origin master
+14. git pull : To move files from remote repository to local repository. git pull origin main
+15. git remote add origin <"link of central repository">: to originate connection with remote repository. has to be done only once.
+16. git rm <'file name'>: to delete or remove the file.
+17. git commit -m 'deleted file'.
+18. git branch <branch name>: to create new branch
+19. git checkout <new branch name>:to point to newly created branch.
+
