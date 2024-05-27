@@ -19,4 +19,4 @@ Commands
 17. git commit -m 'deleted file'.
 18. git branch <branch name>: to create new branch
 19. git checkout <new branch name>:to point to newly created branch.
-
+20. rm -f .git/index.lock : to terminate a git process
